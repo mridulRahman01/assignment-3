@@ -38,16 +38,22 @@
           rgb(255, 255, 255),
           rgba(255, 255, 255, 0) 100%
         );
-        .manrope {
-          font-family: "Manrope", sans-serif;
-          font-optical-sizing: auto;
+      }
+      .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
 
-          font-style: normal;
-        }
+        font-style: normal;
+      }
+      .bc {
+        background: url("/assets/bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
       }
     </style>
   </head>
-  <body class="manrope">
+  <body class="manrop">
     <!-- Nav section -->
     <section class="page1 lg:w-full sm:w-full">
       <div class="navbar lg:pl-[120px] pr-[120px]">
@@ -121,7 +127,10 @@
           </div>
           <a class="btn bg-lime-400 font-bold sm:hidden lg:flex"
             >Book Consult
-            <img class="w-[11px]" src="assets/up-right-arrow.png" alt=""
+            <img
+              class="w-[30px] p-[9px] bg-[#EFDA6E] rounded-full"
+              src="assets/up-right-arrow.png"
+              alt=""
           /></a>
         </div>
       </div>
@@ -158,7 +167,7 @@
       </div>
     </section>
     <!-- Second-section -->
-    <main class="bg-gray-200 h-[3500px] w-full lg:h-[2000px]">
+    <main class="bg-gray-200 h-[3000px] w-full lg:h-[2500px]">
       <section class="page3">
         <div class="hero min-h-screen">
           <div class="lg:mr-[1200px] lg:mt-[-700px]">
@@ -375,6 +384,374 @@
           </div>
         </div>
       </div>
+
+      <!-- Challenge-Section -->
+      <section class="challenge">
+        <button
+          class="bg-lime-400 drop-shadow-lg ml-[124px] w-[180px] h-[30px] mb-[50px] mt-[30px] lg:w-[200px] lg:h-[28px] py-[1px] lg:ml-[700px] lg:mb-[100px] lg:mt-[140px] lg:bg-lime-200 lg:drop-shadow-lg rounded-full font-bold lg:px-3"
+        >
+          <span class="ml-[9px] text-xs lg:ml-[10px]"
+            >Explore our Latest Works</span
+          >
+          <img
+            class="w-[10px] mt-[-18px] h-[19px] ml-[10px] lg:w-[10px] lg:h-[17px] lg:mt-[-18px] lg:ml-[10px]"
+            src="assets/right-arrow.png"
+            alt="Loading"
+          />
+          <div class="">
+            <h1
+              class="w-[300px] h-[30px] text-2xl ml-[-62px] mb-[20px] mt-[20px] lg:w-[480px] lg:h-[40px] lg:ml-[-120px] lg:mt-[20px] font-bold lg:text-5xl mx-auto"
+            >
+              Our Latest Portfolio
+            </h1>
+            <p
+              class="w-[330px] h-[68px] mb-[70px] ml-[-72px] lg:w-[650px] lg:h-[48px] lg:text-xl items-center text-center lg:ml-[-218px] lg:mt-[20px] lg:mb-[100px] font-normal"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+        </button>
+        <div
+          class="sm:mt-[20px] lg:flex lg:justify-normal lg:gap-[-40px] lg:ml-[-2px]"
+        >
+          <div
+            class="card w-[330px] h-[460px] ml-[53px] mb-[20px] mt-[20px] lg:card-side bg-base-100 shadow-xl lg:w-[750px] lg:h-[222px] lg:mt-[30px] lg:ml-[250px] lg:mb-[-20px]"
+          >
+            <figure>
+              <img
+                class="mt-[30px] lg:w-[250px] lg:h-[175px] lg:ml-[20px] lg:mt-[8px]"
+                src="assets/img1.png"
+                alt="Com"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-left">Commercial</h2>
+              <p class="text-left lg:w-[410px] lg:h-[70px]">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <div class="flex gap-3">
+                <div>
+                  <a class="font-bold" href="#">View Details </a>
+                </div>
+                <div>
+                  <img
+                    class="w-[23px] p-[5px] bg-lime-500 rounded-full"
+                    src="assets/up-right-arrow.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card w-[330px] h-[235px] mb-[20px] ml-[50px] lg:card-side bg-base-100 shadow-xl lg:w-[360px] lg:h-[223px] lg:mt-[30px] lg:ml-[20px] lg:mb-[0px]"
+          >
+            <figure>
+              <img
+                class="w-[290px] h-[189px] mt-[20px] lg:w-[270px] lg:h-[175px] lg:mt-[-1px] lg:ml-[46px] rounded-xl"
+                src="assets/img2.png"
+                alt="Com"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="lg:flex lg:justify-normal">
+          <div
+            class="card w-[330px] h-[235px] ml-[48px] mb-[20px] lg:card-side bg-base-100 shadow-xl lg:w-[240px] lg:h-[223px] lg:mt-[30px] lg:ml-[250px] lg:mb-[0px]"
+          >
+            <figure>
+              <img
+                class="mt-[25px] lg:w-[200px] lg:h-[175px] lg:ml-[21px] lg:mt-[-1px] rounded-xl"
+                src="assets/img3.png"
+                alt="Com"
+              />
+            </figure>
+          </div>
+          <div
+            class="card w-[330px] h-[460px] ml-[53px] mb-[20px] mt-[20px] lg:card-side bg-base-100 shadow-xl lg:w-[610px] lg:h-[225px] lg:mt-[30px] lg:ml-[20px] lg:mb-[0px]"
+          >
+            <figure>
+              <img
+                class="mt-[15px] lg:w-[200px] lg:h-[175px] lg:ml-[20px] lg:mt-[-1px] rounded-xl"
+                src="assets/img4.png"
+                alt="Com"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p class="lg:w-[300px] lg:h-[70px]">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <div class="flex gap-3">
+                <div>
+                  <a class="font-bold" href="#">View Details </a>
+                </div>
+                <div>
+                  <img
+                    class="w-[23px] p-[5px] bg-lime-500 rounded-full"
+                    src="assets/up-right-arrow.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card w-[330px] h-[235px] ml-[48px] mb-[20px] lg:card-side bg-base-100 shadow-xl lg:w-[240px] lg:h-[223px] lg:mt-[30px] lg:ml-[15px] lg:mb-[0px]"
+          >
+            <figure>
+              <img
+                class="mt-[25px] lg:w-[200px] lg:h-[175px] lg:ml-[21px] lg:mt-[-1px] rounded-xl"
+                src="assets/img5.png"
+                alt="Com"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- Form-Section -->
+      <section class="input bc w-full h-[1100px] lg:h-[1000px] mt-[60px]">
+        <button
+          class="bg-lime-400 drop-shadow-lg ml-[124px] w-[130px] h-[30px] mb-[50px] mt-[30px] lg:w-[150px] lg:h-[28px] py-[1px] lg:ml-[700px] lg:mb-[100px] lg:mt-[140px] lg:bg-lime-200 lg:drop-shadow-lg rounded-full font-bold lg:px-3"
+        >
+          <span class="ml-[9px] text-xs lg:ml-[10px]">Let's Connect</span>
+          <img
+            class="w-[10px] mt-[-18px] h-[19px] ml-[10px] lg:w-[10px] lg:h-[17px] lg:mt-[-18px] lg:ml-[10px]"
+            src="assets/right-arrow.png"
+            alt="Loading"
+          />
+        </button>
+        <div class="">
+          <h1
+            class="w-[350px] h-[30px] text-2xl ml-[50px] mb-[20px] mt-[20px] lg:w-[700px] lg:h-[40px] lg:ml-[520px] lg:mt-[-30px] font-bold lg:text-5xl mx-auto"
+          >
+            Let's Discuss Next Project
+          </h1>
+          <p
+            class="w-[330px] h-[68px] mb-[70px] ml-[36px] lg:w-[650px] lg:h-[48px] lg:text-xl items-center text-center lg:ml-[498px] lg:mt-[10px] lg:mb-[100px] font-normal"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <div class="form">
+          <form class="lg:ml-[350px]">
+            <div class="lg:flex">
+              <div
+                class="bg-white mb-[20px] lg:w-[465px] lg:h-[60px] rounded-2xl lg:mr-[20px] lg:mb-[20px] p-[19px]"
+              >
+                <input
+                  class=""
+                  type="text"
+                  name=""
+                  placeholder="First name*"
+                  id=""
+                />
+              </div>
+              <div
+                class="mb-[20px] lg:w-[465px] lg:mb-[0px] lg:h-[60px] rounded-2xl bg-slate-50 p-[19px]"
+              >
+                <input
+                  class=""
+                  type="text"
+                  name=""
+                  placeholder="Last name*"
+                  id=""
+                />
+              </div>
+            </div>
+            <div class="lg:flex">
+              <div
+                class="mb-[20px] lg:w-[465px] lg:h-[60px] rounded-2xl lg:mr-[20px] lg:mb-[20px] bg-white p-[19px]"
+              >
+                <input
+                  class=""
+                  type="text"
+                  name=""
+                  placeholder="Phone number*"
+                  id=""
+                />
+              </div>
+              <div
+                class="mb-[20px] lg:w-[465px] lg:h-[60px] rounded-2xl bg-white p-[19px]"
+              >
+                <input
+                  class=""
+                  type="text"
+                  name=""
+                  placeholder="Email Address*"
+                  id=""
+                />
+              </div>
+            </div>
+            <div class="mb-[20px] lg:w-[960px] lg:h-[230px] lg:mb-[50px]">
+              <textarea
+                class="rounded-2xl w-full p-[10px]"
+                name=""
+                id=""
+                placeholder="Write your massage here*"
+                cols="109"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="flex">
+              <div class="rounded-2xl">
+                <button
+                  class="w-[390px] h-[50px] lg:w-[950px] lg:h-[55px] rounded-xl font-bold lg:text-[20px] bg-lime-400"
+                  type="button"
+                >
+                  Send Mail
+                </button>
+              </div>
+              <div class="ml-[-148px] mt-[11px] lg:ml-[-420px] lg:mt-[12.5px]">
+                <img
+                  class="w-[26px] p-[6px] lg:w-[30px] lg:p-[8px] rounded-full bg-white"
+                  src="assets/up-right-arrow.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- unique-section -->
+      <div>
+        <h1
+          class="w-[250px] h-[30px] text-2xl ml-[110px] mb-[20px] mt-[20px] lg:w-[700px] lg:h-[40px] lg:ml-[600px] lg:mt-[30px] font-bold lg:text-5xl mx-auto"
+        >
+          Our Commitments
+        </h1>
+        <p
+          class="w-[330px] h-[68px] mb-[70px] ml-[50px] lg:w-[650px] lg:h-[48px] lg:text-xl items-center text-center lg:ml-[498px] lg:mt-[10px] font-normal"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+      </div>
+      <div class="diff aspect-[16/8] lg:aspect-[19/5] mb-[20px]">
+        <div class="diff-item-1">
+          <div
+            class="bg-lime-400 text-primary-content grid place-content-center font-black"
+          >
+            <img class="lg:w-[600px]" src="assets/img2.png" alt="" />
+          </div>
+        </div>
+        <div class="diff-item-2">
+          <div
+            class="bg-base-200 grid place-content-center font-black text-center"
+          >
+            <p class="w-[350px] lg:w-[400px] lg:text-3xl">
+              We Always work hard and soul to give you the best thing from us.So
+              that we can get more and more client and satisfy them with our
+              work.
+            </p>
+          </div>
+        </div>
+        <div class="diff-resizer"></div>
+      </div>
+      <!-- Footer-section -->
+      <footer>
+        <footer class="footer footer-center bg-black text-white p-10">
+          <aside>
+            <svg
+              width="50"
+              height="50"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              class="inline-block fill-current"
+            >
+              <div>
+                <a class="btn btn-ghost text-xl">
+                  <img
+                    class="w-[22px] bg-lime-400 p-[5px] rounded-full"
+                    src="assets/up-right-arrow.png"
+                    alt=""
+                  />
+                  Rinterio
+                </a>
+              </div>
+            </svg>
+            <p class="lg:w-[600px] text-center">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <div class="lg:ml-[25px]">
+              <ul
+                class="lg:flex lg:gap-[40px] lg:mt-[20px] lg:mb-[20px] px-1 font-bold"
+              >
+                <li class="mb-[20px] lg:mb-[0px]"><a>Home</a></li>
+                <li class="mb-[20px] lg:mb-[0px]">
+                  <summary>Services</summary>
+                </li>
+                <li class="mb-[20px] lg:mb-[0px]"><a>Portfolio</a></li>
+                <li class="mb-[20px] lg:mb-[0px]"><a>Blogs</a></li>
+                <li class="mb-[20px] lg:mb-[0px]"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="lg:mt-[10px] lg:ml-[20px]">
+              <a class="btn bg-lime-400 font-bold lg:flex rounded-2xl"
+                >Book Consult
+                <img
+                  class="w-[30px] p-[10px] badge-secondary rounded-full"
+                  src="assets/up-right-arrow.png"
+                  alt=""
+              /></a>
+            </div>
+          </aside>
+          <nav>
+            <div class="grid grid-flow-col gap-8 lg:ml-[30px]">
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                  ></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                  ></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current"
+                >
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </footer>
+      </footer>
     </main>
   </body>
 </html>
